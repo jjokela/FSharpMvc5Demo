@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.30501.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "FSharpMvc5Demo", "FSharpMvc5Demo\FSharpMvc5Demo.fsproj", "{53433CF2-1021-4D80-830F-99D63524C2D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{0FD55516-621F-49C3-99AB-A4B9142C1C43}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TaxCalculator", "TaxCalculator\TaxCalculator.fsproj", "{02E97358-16D3-44BF-9A8D-75D11E4E2A06}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TaxCalculator.Tests", "TaxCalculator.Tests\TaxCalculator.Tests.fsproj", "{6CA5BAFE-02BC-4DE1-AB1C-69BEC25E87AB}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TaxCalculator.WebApp", "TaxCalculator.WebApp\TaxCalculator.WebApp.fsproj", "{F3BCAFAF-583B-461E-8FFD-AFC4F36F4571}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53433CF2-1021-4D80-830F-99D63524C2D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53433CF2-1021-4D80-830F-99D63524C2D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53433CF2-1021-4D80-830F-99D63524C2D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53433CF2-1021-4D80-830F-99D63524C2D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02E97358-16D3-44BF-9A8D-75D11E4E2A06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02E97358-16D3-44BF-9A8D-75D11E4E2A06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02E97358-16D3-44BF-9A8D-75D11E4E2A06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02E97358-16D3-44BF-9A8D-75D11E4E2A06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CA5BAFE-02BC-4DE1-AB1C-69BEC25E87AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CA5BAFE-02BC-4DE1-AB1C-69BEC25E87AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CA5BAFE-02BC-4DE1-AB1C-69BEC25E87AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CA5BAFE-02BC-4DE1-AB1C-69BEC25E87AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F3BCAFAF-583B-461E-8FFD-AFC4F36F4571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F3BCAFAF-583B-461E-8FFD-AFC4F36F4571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F3BCAFAF-583B-461E-8FFD-AFC4F36F4571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F3BCAFAF-583B-461E-8FFD-AFC4F36F4571}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
